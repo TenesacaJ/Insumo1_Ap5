@@ -1,0 +1,33 @@
+.techo{
+    display: flex;
+    justify-content: center;
+    background: #959595;
+    border: 1px solid #424949;
+    align-items: center;
+    height: 100px;
+}
+
+.fondo{
+    background-image: url(https://www.aparici.com/wp-content/uploads/2017/11/PRESSURE-WHITE-NATURAL-858-1024x1024.jpg);
+    height: 400px;
+    display: flex;
+    justify-content: end;
+}
+
+.suelo{
+    background-image: url(https://squarefootflooring.com/wp-content/uploads/2021/12/RTBCW36.jpg);
+    height: 50px;
+}
+
+.foco {
+    width: 50px;
+    height: 50px;
+    background-color: #FDFEFE;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: 1px solid #263238;
+}
+
+.foco.enfocado {
+    background-color: #FFFF00;
+}

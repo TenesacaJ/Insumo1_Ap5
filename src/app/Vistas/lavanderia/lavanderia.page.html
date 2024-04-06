@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>lavanderia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <div class="techo">
+        <div class="foco" [class.enfocado]="isButtonFocused"></div>
+      </div>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="fondo">
+        <img src="assets/img/lavadora.png" alt="Objetos">
+      </div>
+      <div class="suelo"></div>
+      <ion-button expand="block" (click)="toggleFocus()">
+        <ion-icon name="power"></ion-icon>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <app-nav></app-nav>
+  </ion-toolbar>
+</ion-footer>

@@ -3,13 +3,37 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    path: 'puerta',
+    loadChildren: () => import('./Vistas/puerta/puerta.module').then( m => m.PuertaPageModule)
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'puerta',
     pathMatch: 'full'
+  },
+  {
+    path: 'sala',
+    loadChildren: () => import('./Vistas/sala/sala.module').then( m => m.SalaPageModule)
+  },
+  {
+    path: 'cuarto',
+    loadChildren: () => import('./Vistas/cuarto/cuarto.module').then( m => m.CuartoPageModule)
+  },
+  {
+    path: 'cocina',
+    loadChildren: () => import('./Vistas/cocina/cocina.module').then( m => m.CocinaPageModule)
+  },
+  {
+    path: 'bano',
+    loadChildren: () => import('./Vistas/bano/bano.module').then( m => m.BanoPageModule)
+  },
+  {
+    path: 'lavanderia',
+    loadChildren: () => import('./Vistas/lavanderia/lavanderia.module').then( m => m.LavanderiaPageModule)
+  },
+  {
+    path: 'biblioteca',
+    loadChildren: () => import('./Vistas/biblioteca/biblioteca.module').then( m => m.BibliotecaPageModule)
   },
 ];
 

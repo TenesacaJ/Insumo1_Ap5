@@ -1,0 +1,33 @@
+.techo{
+    display: flex;
+    justify-content: center;
+    background: #959595;
+    border: 1px solid #424949;
+    align-items: center;
+    height: 100px;
+}
+
+.fondo{
+    background-image: url(https://static.wixstatic.com/media/750c99_13207bca2bac48da9819c0182c850744~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/750c99_13207bca2bac48da9819c0182c850744~mv2.jpg);
+    height: 400px;
+    display: flex;
+    justify-content: end;
+}
+
+.suelo{
+    background-image: url(https://p.turbosquid.com/ts-thumb/Na/sc3dYT/fLnZRgOa/seamless_ceramic_tiles_01122/jpg/1514032519/1500x1150/fit_q99/7b6e986729691df5f0bb2f2c92c51414c0df7653/seamless_ceramic_tiles_01122.jpg);
+    height: 50px;
+}
+
+.foco {
+    width: 50px;
+    height: 50px;
+    background-color: #FDFEFE;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: 1px solid #263238;
+}
+
+.foco.enfocado {
+    background-color: #FFFF00;
+}

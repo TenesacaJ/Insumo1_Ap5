@@ -1,0 +1,31 @@
+.techo{
+    display: flex;
+    justify-content: center;
+    background: #212F3D;
+    border: 1px solid #424949;
+    align-items: center;
+    height: 100px;
+}
+
+.fondo{
+    background-image: url(https://th.bing.com/th/id/OIP.AWry95DMrX7vi17F07gZRQHaHa?w=500&h=500&rs=1&pid=ImgDetMain);
+    height: 350px;
+}
+
+.suelo{
+    background-image: url(https://th.bing.com/th/id/OIP.QvcME_5NR0rNw-yR_QnjlQHaEW?rs=1&pid=ImgDetMain);
+    height: 50px;
+}
+
+.foco {
+    width: 50px;
+    height: 50px;
+    background-color: #FDFEFE;
+    margin-left: 10px;
+    border-radius: 25px;
+    border: 1px solid #263238;
+}
+
+.foco.enfocado {
+    background-color: #FFFF00;
+}
